@@ -14,7 +14,8 @@ The project implements a summarization pipeline that:
 - **Outputs Results** - `generated_summaries.csv` with summaries and per-row ROUGE-1 scores
 - A summary table of overall ROUGE scores in the Jupyter notebook The pipeline is optimized for a GTX 1070Ti GPU, with mixed precision recommended for `flan-t5-large` (~1.5 GB VRAM).
 
-## Installation ### Prerequisites - Python 3.8+ - NVIDIA GPU (e.g., GTX 1070Ti) with CUDA support (optional for CPU-only execution) - Git LFS (if tracking large model files) 
+## Installation 
+### Prerequisites - Python 3.12+ - NVIDIA GPU (e.g., GTX 1070Ti) with CUDA support (optional for CPU-only execution) 
 
 ### Setup 
 1. **Clone the Repository** ```bash git clone https://github.com/Odalisio-Neto/Test-Case-Descriptor.git cd Test-Case-Descriptor ```
