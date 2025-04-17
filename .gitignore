@@ -1,0 +1,5 @@
+# Ignore everything in model/summarization_model
+model/summarization_model/*
+
+# Except the final subfolder and its contents
+!model/summarization_model/final/
