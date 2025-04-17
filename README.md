@@ -1,7 +1,8 @@
 # Test Case Descriptor Summarization 
-This repository contains a multi-model test case summarization pipeline developed for the IATS/Motorola scholarship project. 
+This repository contains a multi-model test case summarization pipeline. 
 The pipeline processes test case descriptions from “The Test-Case Dataset” to generate concise summaries, addressing issues with incoherent outputs (e.g., “ambasadEasily”). 
-It evaluates four transformer-based models using the ROUGE metric, supporting automated test case documentation for software testing workflows. ## Project Overview 
+It evaluates four transformer-based models using the ROUGE metric, supporting automated test case documentation for software testing workflows. 
+## Project Overview 
 
 The project implements a summarization pipeline that: 
 - **Cleans Data** Normalizes Title and Description fields, combining them into a Combined Input for richer context. 
